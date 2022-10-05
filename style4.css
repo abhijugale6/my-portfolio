@@ -1,0 +1,124 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    /* background-color: rgb(250, 209, 156); */
+    background-image: url(images/social3.jpg.crdownload);
+}
+h1{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0;
+    font-size: 48px;
+    font-weight: bold;
+    transform: translateX(-50px);
+}
+.profiles p{
+    font-size: 18px;
+    text-decoration: solid;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+
+nav ul li{
+    display: inline-block;
+    
+    list-style: none;
+    background: transparent;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    background: #aba9a9;
+    padding: 5px;
+    border-radius:10px ;
+    justify-content: space-evenly;
+   
+
+   
+}
+nav ul li a:hover{
+    box-shadow: 3px 3px 5px crimson;
+    transform: scale(1.5);
+   
+}
+
+h1:hover{
+   
+    text-decoration: underline;
+    text-shadow:2px 2px 5px #858282;
+}
+.pic{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    bottom:10%;
+    right: 10%;
+    border-radius: 25px;
+}
+
+
+
+
+p{
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top:0%;
+    display: block;
+    align-items: stretch;
+}
+.pro-col{
+    flex-basis: 61%;
+    background: #aba9a9;
+    border-radius:  10px;
+    border: 5px solid black;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 50%;   
+}
+.pro-col p{
+    font-size: 20px;
+}
+.pro-col a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.pro-col a:hover{
+    cursor: pointer;
+    padding-top: 10px;
+    color: rgb(19, 1, 1);
+   
+}
+.pro-col h3{
+
+    padding: 3px;
+    width:50px;
+    font-size: 34px;
+    text-shadow: 18px;
+}
+@media (max-width:700px) {
+    .pic{
+        bottom: 10%;
+
+        right: 20%;
+
+    }
+    
+}
