@@ -3,7 +3,7 @@
     padding: 0;
     font-family:sans-serif;
     background:white;
-  
+    /* background-image: url(images/images8.jpg); */
 }
 
 .hero{
@@ -120,7 +120,14 @@ span{
     color: black;
 }
 
-
+/* .photo{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    bottom: 20px;
+    right: 180px;
+   
+} */
 .hgf{
     display: flex;
     justify-content: space-between;
@@ -134,7 +141,11 @@ span{
 .photo img{
    height:auto;
    width: 75%;
-
+   /* margin-bottom: 100px; */
+   /* position: relative; */
+   /* transform: translateX(720px); */
+   /* transform: translateY(100px); */
+   /* transform: translateY(20px); */
 
 }
 
@@ -175,12 +186,24 @@ span{
     .detail p{
         font-size:0.5em ;
     }
-
+    .photo img{
+       
+       
+        
+       
+    }
 }   
 
   
   
 
+
+@media (orientation: landscape){
+    body{
+        color: aqua;
+    }
+
+}
 
  
     
